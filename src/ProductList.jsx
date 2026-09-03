@@ -22,14 +22,14 @@ const plantsArray = [
       category: "Aromatic Plants",
       plants: [
         { name: "Lavender", image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?auto=format&fit=crop&w=600&q=80", description: "Calming scent, helps reduce stress.", cost: "$18" },
-        { name: "Jasmine", image: "https://images.unsplash.com/photo-1592729845727-2954c476f56f?auto=format&fit=crop&w=600&q=80", description: "Sweet fragrance, promotes relaxation.", cost: "$20" },
+        { name: "Jasmine", image: "https://www.petalrepublic.com/wp-content/uploads/2021/04/Ultimate-Guide-to-Jasmine-Flower-Meaning-Types-and-Uses-1536x1024.jpeg", description: "Sweet fragrance, promotes relaxation.", cost: "$20" },
       ]
     },
     {
       category: "Medicinal Plants",
       plants: [
-        { name: "Aloe Vera", image: "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=600&q=80", description: "Soothes burns and skin irritations.", cost: "$10" },
-        { name: "Mint", image: "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=600&q=80", description: "Aids digestion and freshens breath.", cost: "$8" },
+        { name: "Aloe Vera", image: "https://growyouryard.com/wp-content/uploads/2020/09/how-long-does-it-take-for-aloe-vera-to-grow-2048x1365.jpg", description: "Soothes burns and skin irritations.", cost: "$10" },
+        { name: "Mint", image: "https://www.littleyellowwheelbarrow.com/wp-content/uploads/2021/05/types-of-mint-1-2-scaled.jpg", description: "Aids digestion and freshens breath.", cost: "$8" },
       ]
     }
   ];
