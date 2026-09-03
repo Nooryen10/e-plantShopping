@@ -9,3 +9,5 @@ Paradise Nursery is an online shopping platform offering a wide selection of hou
 - Interactive product gallery across multiple categories.
 - Global cart state managed via Redux Toolkit.
 - Real-time cart updates (item counts, sub-totals, totals).
+
+- https://nooryen10.github.io/e-plantShopping/
