@@ -10,26 +10,26 @@ function ProductList() {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
 
-  const plantsArray = [
+const plantsArray = [
     {
       category: "Air Purifying Plants",
       plants: [
-        { name: "Snake Plant", image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg", description: "Produces oxygen at night, improving air quality.", cost: "$15" },
-        { name: "Spider Plant", image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg", description: "Filters formaldehyde and xylene from the air.", cost: "$12" },
+        { name: "Snake Plant", image: "https://images.unsplash.com/photo-1593482892290-f54927ae1bac?auto=format&fit=crop&w=600&q=80", description: "Produces oxygen at night, improving air quality.", cost: "$15" },
+        { name: "Spider Plant", image: "https://images.unsplash.com/photo-1572688484438-313a6e50c333?auto=format&fit=crop&w=600&q=80", description: "Filters formaldehyde and xylene from the air.", cost: "$12" },
       ]
     },
     {
       category: "Aromatic Plants",
       plants: [
-        { name: "Lavender", image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba", description: "Calming scent, helps reduce stress.", cost: "$18" },
-        { name: "Jasmine", image: "https://images.unsplash.com/photo-1592729845727-2954c476f56f", description: "Sweet fragrance, promotes relaxation.", cost: "$20" },
+        { name: "Lavender", image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?auto=format&fit=crop&w=600&q=80", description: "Calming scent, helps reduce stress.", cost: "$18" },
+        { name: "Jasmine", image: "https://images.unsplash.com/photo-1592729845727-2954c476f56f?auto=format&fit=crop&w=600&q=80", description: "Sweet fragrance, promotes relaxation.", cost: "$20" },
       ]
     },
     {
       category: "Medicinal Plants",
       plants: [
-        { name: "Aloe Vera", image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/aloe-vera-3283116_1280.jpg", description: "Soothes burns and skin irritations.", cost: "$10" },
-        { name: "Mint", image: "https://cdn.pixabay.com/photo/2016/01/07/09/10/mint-1125732_1280.jpg", description: "Aids digestion and freshens breath.", cost: "$8" },
+        { name: "Aloe Vera", image: "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?auto=format&fit=crop&w=600&q=80", description: "Soothes burns and skin irritations.", cost: "$10" },
+        { name: "Mint", image: "https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?auto=format&fit=crop&w=600&q=80", description: "Aids digestion and freshens breath.", cost: "$8" },
       ]
     }
   ];
