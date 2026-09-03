@@ -33,7 +33,6 @@ const plantsArray = [
       ]
     }
   ];
-
   const calculateTotalQuantity = () => {
     return cartItems ? cartItems.reduce((total, item) => total + item.quantity, 0) : 0;
   };
